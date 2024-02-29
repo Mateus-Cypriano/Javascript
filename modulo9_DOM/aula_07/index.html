@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Alterando o DOM com insertBefore</title>
+</head>
+<body>
+    <h2>Insere um nó antes do nó de referência do método;<br>
+        Precisamos de um elemento para ser adicionado; <br>
+        O elemento que terá o outro elemento adicionado antes dele; <br>
+         E o elemento pai destes dois;</h2>
+
+         <br>
+    <p>Podemos acessar todos os elementos a partir de document.body;<br>
+    A partir dele vamos entrando nos childNodes;<br>
+    E depois acessando as propriedades que nos interessam. </p>
+
+    
+
+    <div id="container-principal">
+        <h1 id="titulo-principal">Titulo da página</h1>
+        <p>Algum texto</p>
+    </div>
+    <div id="segundo-container">
+        <h1>texto</h1>
+        <ul>
+            <li class="itens-Azuis">coisa 1</li>
+            <li class="itens-Azuis">coisa 2</li>
+            <li class="itens-Azuis">coisa 3</li>
+        </ul>
+
+        <ul>
+            <li class="itens-Vermelhos">coisa 1</li>
+            <li class="itens-Vermelhos">coisa 2</li>
+            <li class="itens-Vermelhos">coisa 3</li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+    
+    <footer>
+        <p>Algum texto;</p>
+    </footer>
+</body>
+</html>
