@@ -1,2 +1,3 @@
 # Javascript
-Repositório curso Javascript que estou estudando, irei incluindo os módulos conforme forem concluídos. 
+Repositório curso Javascript. 
+Curso completo com 3 projetos de JS. 
